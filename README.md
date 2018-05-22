@@ -1,2 +1,1 @@
-# Python_Tools_for_the_Boys
-Simple Quality Tools for fun....
+Tools for various uses from crawling webpages to validating HMAC's... Enjoy!
