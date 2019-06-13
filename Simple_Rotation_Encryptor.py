@@ -1,7 +1,8 @@
 def rotation_cipher():
     letters='ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     encrypt = raw_input('Enter a string to Encrypt')
-    move = 7
+    move = input('Enter a number for the rotation key')
+    move = int(move)
     for x in encrypt:
         encypted = letters.index(x) + move
         encrypt = encrypt.replace(letters[encrypted])
@@ -25,3 +26,6 @@ elif (answer == 2):
 else:
     print('that wasn\'t a option')
     break
+
+
+#To contribute add input validation, a better UI/UX, or add other encryption methods
